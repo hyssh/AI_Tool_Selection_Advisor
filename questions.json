@@ -1,0 +1,317 @@
+{
+    "Business decision maker": [
+      {
+        "question": "What are your primary goals for implementing AI?",
+        "options": [
+          {
+            "answer": "Enhance search, productivity and streamline workflows within Microsoft 365 apps",
+            "scores": { "M365 Copilot": 3, "Copilot Studio": 0, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Create customized AI agents for specific business processes",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Build advanced, scalable AI applications with extensive customization",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          }
+        ]
+      },
+      {
+        "question": "Who will be the primary users of the AI tool",
+        "options": [
+          {
+            "answer": "Internal employees only",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "External users only",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 2 }
+          },
+          {
+            "answer": "Both Internal and External users",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 2 }
+          }
+        ]
+      },
+      {
+        "question": "What level of customization do you expect?",
+        "options": [
+          {
+            "answer": "Basic - I only need basic AI features that can be easily integrated by copying and pasting",
+            "scores": { "M365 Copilot": 3, "Copilot Studio": 0, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Moderate - integrate AI features with existing platforms like Microsoft Teams or a web application",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Extensive - build highly customized AI solutions that can integrate with multiple data sources and require significant development effort",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          }
+        ]
+      },
+      {
+        "question": "What is your timeline for implementation",
+        "options": [
+          {
+            "answer": "Fast implementation - Purchase AI services and consume them right away",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 0, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Moderate timeline - Purchase AI, and quick integration and customization",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Longer timeline due to complexity of workload, many AIs are required",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          }
+        ]
+      },
+      {
+        "question": "Do you need to connect to LOB system?",
+        "options": [
+          {
+            "answer": "Yes - I have LOB System/Application that I want to infuse AI",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 0, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "Do you need features for collaboration and sharing insights within your team or organization?",
+        "options": [
+          {
+            "answer": "Yes - The content needs to be shared or sent via Teams",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "No - AI is for just indivisual assistant or my end users",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          }
+        ]
+      },
+      {
+        "question": "Are you looking for a tool that offers customizeable analytics and reporting capabilities of AI service useage?",
+        "options": [
+          {
+            "answer": "Yes - I need a feedback loop to capture user comments and sophisticated reports",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No - Just basic usage for tracking AI usage in our organization",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 0, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "Do you need the AI tool to interact with external users (e.g., customers, partners)?",
+        "options": [
+          {
+            "answer": "Yes - internal and external users",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No - only internal employees, any users in our organization",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 1, "AI Foundry": 0 }
+          }
+        ]
+      }
+    ],
+    "Technical decision maker": [
+      {
+        "question": "What is your team's technical expertise",
+        "options": [
+          {
+            "answer": "Mostly business and power users",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Developers, strong technical skills and experience in AI development",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 1 }
+          }
+        ]
+      },
+      {
+        "question": "Where is your data stored?",
+        "options": [
+          {
+            "answer": "Microsoft 365 (SharePoint, OneDrive, etc.)",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "External databases or cloud storage",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 2 }
+          }
+        ]
+      },
+      {
+        "question": "Do you require handle multiple data source and pre and/or post data processing",
+        "options": [
+          {
+            "answer": "Yes - Data update every day, large volume, data from multiple sources",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 2 }
+          },
+          {
+            "answer": "No - Data changes rarely, a few documents",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 1, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "Do you need a tool that allows for fine-tuning, custom AI model development and deployment?",
+        "options": [
+          {
+            "answer": "Yes - AI Engineer need the tool to accelerate development, or do LLMOps",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 2 }
+          },
+          {
+            "answer": "No - Fine-tuning isn't required",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 1, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "Do you want to automate an action based on given user interaction, input and conditions?",
+        "options": [
+          {
+            "answer": "Yes - complex and multiple conditions",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No - just simple one or two conditions",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 0, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "What is the tool the users are going to use? (MSFT Teams, browser, custom app, etc.)",
+        "options": [
+          {
+            "answer": "Teams and/or M365 Apps",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 2, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Web broswer",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 1 }
+          },
+          {
+            "answer": "Custom App",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 2 }
+          }
+        ]
+      },
+      {
+        "question": "Do you have requirements to maintain or monitor AI's outputs?",
+        "options": [
+          {
+            "answer": "Yes - Need detail logs, when, who, which input/output and what happened",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No - Basic usage tracking is enough",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 1, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "Do you or users use Azure Entra ID?",
+        "options": [
+          {
+            "answer": "Yes",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 1, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          }
+        ]
+      },
+      {
+        "question": "Do you need a SaaS tool to build, test, and deploy agents with natural language and a single pricing model that includes all necessary services without separate sign-ups?",
+        "options": [
+          {
+            "answer": "Yes - Need a GUI or UI for power users that enables them to build an AI service (Bot, App)",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "No - Pro-code",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 2 }
+          }
+        ]
+      },
+      {
+        "question": "Do you need a development platform to build custom AI applications with access to a wide range of services such as Azure OpenAI, Azure AI services, and other generative AI models?",
+        "options": [
+          {
+            "answer": "Yes - Need to develop RAG or graphRAG for our use case",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No - I don't need the services, just a simple data repository because of the small data volume",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 1, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "How important is ease of integration with your current software and IT infrastructure?",
+        "options": [
+          {
+            "answer": "Very Important - minimum integration effort as we have power users",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Less Important - App dev team can integrate any APIs",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 1 }
+          }
+        ]
+      },
+      {
+        "question": "Do you have any specific compliance or security requirements that the AI tool must meet?",
+        "options": [
+          {
+            "answer": "Yes - Very special and unique compliances",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          },
+          {
+            "answer": "No - As long as the platfrom is from Microsoft or Azure has we're good",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 1, "AI Foundry": 0 }
+          }
+        ]
+      },
+      {
+        "question": "What is the current size of your data?",
+        "options": [
+          {
+            "answer": "Small to medium - Mostly office documents and it won't grow. About a few MB",
+            "scores": { "M365 Copilot": 2, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Large - I don't know size of data because it is growing fast",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 2 }
+          }
+        ]
+      },
+      {
+        "question": "What level of technical expertise does your team have for implementing and managing AI tools?",
+        "options": [
+          {
+            "answer": "Advanced experties - Many developers (SW Eng, Data Eng)",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 0, "AI Foundry": 1 }
+          },
+          {
+            "answer": "Proficient experties - Power users and a few developers",
+            "scores": { "M365 Copilot": 0, "Copilot Studio": 1, "AI Foundry": 0 }
+          },
+          {
+            "answer": "Beginner experties - Mostly buiness or a few power users",
+            "scores": { "M365 Copilot": 1, "Copilot Studio": 0, "AI Foundry": 0 }
+          }
+        ]
+      }
+    ]
+  }
+  
